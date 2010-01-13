@@ -1,0 +1,235 @@
+
+
+Processing SampleController#index (for 127.0.0.1 at 2010-01-13 12:17:31) [GET]
+
+ActionView::MissingTemplate (Missing template sample/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-13 12:17:59) [GET]
+
+NameError (uninitialized constant SampleController):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-13 12:18:27) [GET]
+
+NameError (uninitialized constant SampleController):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SamplesController#index (for 127.0.0.1 at 2010-01-13 12:19:13) [GET]
+Rendering samples/index
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SamplesController#index (for 127.0.0.1 at 2010-01-13 12:19:17) [GET]
+Rendering samples/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SamplesController#index (for 127.0.0.1 at 2010-01-13 12:19:39) [GET]
+Rendering samples/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SamplesController#sales_report (for 127.0.0.1 at 2010-01-13 12:19:43) [GET]
+
+NameError (uninitialized constant SamplesController::Sales):
+  app/controllers/samples_controller.rb:15:in `sales_report'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SamplesController#sales_report (for 127.0.0.1 at 2010-01-13 12:26:24) [GET]
+
+NameError (uninitialized constant SamplesController::Sale):
+  app/controllers/samples_controller.rb:14:in `sales_report'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SamplesController#visitors_report (for 127.0.0.1 at 2010-01-13 12:26:29) [GET]
+  [4;36;1mAnalytic Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: analytics: SELECT * FROM "analytics" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: analytics: SELECT * FROM "analytics" ):
+  app/controllers/samples_controller.rb:9:in `visitors_report'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (3.8ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddAnalyticsTable (20100113143014)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "analytics" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "recorded_at" date, "visits" integer, "pageviews" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100113143014')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("analytics")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mAnalytic Load (0.2ms)[0m   [0;1mSELECT "analytics".id FROM "analytics" WHERE ("analytics"."recorded_at" = '2010-01-02') LIMIT 1[0m
+  [4;35;1mAnalytic Create (0.4ms)[0m   [0mINSERT INTO "analytics" ("pageviews", "created_at", "recorded_at", "updated_at", "visits") VALUES(100, '2010-01-13 14:34:27', '2010-01-02', '2010-01-13 14:34:27', 10)[0m
+  [4;36;1mAnalytic Load (0.2ms)[0m   [0;1mSELECT "analytics".id FROM "analytics" WHERE ("analytics"."recorded_at" = '2010-01-03') LIMIT 1[0m
+  [4;35;1mAnalytic Create (0.3ms)[0m   [0mINSERT INTO "analytics" ("pageviews", "created_at", "recorded_at", "updated_at", "visits") VALUES(60, '2010-01-13 14:34:27', '2010-01-03', '2010-01-13 14:34:27', 8)[0m
+  [4;36;1mAnalytic Load (0.2ms)[0m   [0;1mSELECT "analytics".id FROM "analytics" WHERE ("analytics"."recorded_at" = '2010-01-04') LIMIT 1[0m
+  [4;35;1mAnalytic Create (0.2ms)[0m   [0mINSERT INTO "analytics" ("pageviews", "created_at", "recorded_at", "updated_at", "visits") VALUES(1200, '2010-01-13 14:34:27', '2010-01-04', '2010-01-13 14:34:27', 32)[0m
+  [4;36;1mAnalytic Load (1.5ms)[0m   [0;1mSELECT * FROM "analytics" [0m
+
+
+Processing SamplesController#visitors_report (for 127.0.0.1 at 2010-01-13 12:34:40) [GET]
+  [4;35;1mAnalytic Load (0.7ms)[0m   [0mSELECT * FROM "analytics" [0m
+Completed in 67ms (View: 43, DB: 1) | 200 OK [http://localhost/samples/visitors_report]
+
+
+Processing SamplesController#sales_report (for 127.0.0.1 at 2010-01-13 12:34:55) [GET]
+
+NameError (uninitialized constant SamplesController::Sale):
+  app/controllers/samples_controller.rb:14:in `sales_report'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SamplesController#index (for 127.0.0.1 at 2010-01-13 12:34:58) [GET]
+Rendering samples/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/samples/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddAnalyticsTable (20100113143014)
+Migrating to AddSalesTable (20100113143533)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "sales" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "territory" varchar(255), "total_sales" float, "net_profit" float, "gross_profit" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100113143533')[0m
+  [4;35;1mSQL (8.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("analytics")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("sales")[0m
+  [4;36;1mSale Load (0.2ms)[0m   [0;1mSELECT "sales".id FROM "sales" WHERE ("sales"."territory" = 'Brazil' AND "sales".total_sales = 100.0) LIMIT 1[0m
+  [4;35;1mSale Create (0.4ms)[0m   [0mINSERT INTO "sales" ("gross_profit", "created_at", "updated_at", "territory", "net_profit", "total_sales") VALUES(90.1, '2010-01-13 14:42:33', '2010-01-13 14:42:33', 'Brazil', 80.2, 100.0)[0m
+  [4;36;1mSale Load (0.1ms)[0m   [0;1mSELECT "sales".id FROM "sales" WHERE ("sales"."territory" = 'Brazil' AND "sales".total_sales = 110.0) LIMIT 1[0m
+  [4;35;1mSale Create (0.2ms)[0m   [0mINSERT INTO "sales" ("gross_profit", "created_at", "updated_at", "territory", "net_profit", "total_sales") VALUES(93.1, '2010-01-13 14:42:33', '2010-01-13 14:42:33', 'Brazil', 86.3, 110.0)[0m
+  [4;36;1mSale Load (0.1ms)[0m   [0;1mSELECT "sales".id FROM "sales" WHERE ("sales"."territory" = 'Brazil' AND "sales".total_sales = 210.0) LIMIT 1[0m
+  [4;35;1mSale Create (0.2ms)[0m   [0mINSERT INTO "sales" ("gross_profit", "created_at", "updated_at", "territory", "net_profit", "total_sales") VALUES(190.1, '2010-01-13 14:42:33', '2010-01-13 14:42:33', 'Brazil', 180.5, 210.0)[0m
+  [4;36;1mSale Load (0.3ms)[0m   [0;1mSELECT "sales".id FROM "sales" WHERE ("sales"."territory" = 'Canada' AND "sales".total_sales = 99.0) LIMIT 1[0m
+  [4;35;1mSale Create (0.4ms)[0m   [0mINSERT INTO "sales" ("gross_profit", "created_at", "updated_at", "territory", "net_profit", "total_sales") VALUES(90.1, '2010-01-13 14:42:33', '2010-01-13 14:42:33', 'Canada', 80.0, 99.0)[0m
+
+
+Processing SamplesController#sales_report (for 127.0.0.1 at 2010-01-13 12:42:37) [GET]
+  [4;36;1mSale Load (0.8ms)[0m   [0;1mSELECT * FROM "sales" WHERE ("sales"."territory" = 'Brazil') [0m
+Completed in 25ms (View: 2, DB: 1) | 200 OK [http://localhost/samples/sales_report]
